@@ -1,0 +1,32 @@
+<template>
+  <lightning-card>
+  <div>
+    <lightning-input label="Primeiro Nome:"  type="text" id="firstName" name="firstName" onchange={handleInputChange}>        
+    </lightning-input>
+  </div>
+      <div>
+      <lightning-input label="Sobrenome:" type="text" id="lastName" name="lastName" onchange={handleInputChange} >        
+      </lightning-input>
+    </div>
+
+    <div>
+      <lightning-input label="Email:" type="email" id="email" name="email" onchange={handleInputChange}  >        
+      </lightning-input>
+    </div>
+
+    <div>
+      <lightning-input label="Website:" type="text" id="website" name="website" onchange={handleInputChange}>        
+      </lightning-input>
+    </div>
+    
+    <div>
+      <lightning-input label="Empresa:" type="text" id="company" name="company" onchange={handleInputChange}>        
+      </lightning-input>
+    </div>
+      
+    <div>
+      <lightning-input label="Receita anual:" type="number" id="annualRevenue" name="annualRevenue" onchange={handleInputChange}>        
+      </lightning-input>
+    </div>
+</lightning-card>
+</template>

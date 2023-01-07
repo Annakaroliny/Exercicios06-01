@@ -1,0 +1,25 @@
+<template>
+  <lightning-card title="Calculadora">
+    <div class="slds-m-arround_medium">
+      <lightning-input type="number" label="Primeiro número" value={num1} onchange={numero1}>        
+      </lightning-input>
+
+      <lightning-input type="number" label="Segundo número" value={num2} onchange={numero2}>       
+      </lightning-input>
+
+      <lightning-button variant="brand" label="Soma" onclick={soma}></lightning-button>
+      <lightning-button variant="brand" label="Subtração" onclick={subtracao}></lightning-button>
+      <lightning-button variant="brand" label="Divisão" onclick={divisao}></lightning-button>
+      <lightning-button variant="brand" label="Multiplicação" onclick={multiplicacao}></lightning-button>
+
+      <lightning-input type="number" label="Resultado" value={result}>       
+      </lightning-input>
+
+    </div>
+    </lightning-card>
+</template>
+
+
+
+
+

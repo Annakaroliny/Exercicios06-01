@@ -1,0 +1,25 @@
+<template>
+  <lightning-card>
+    <div class="slds-m-around_medium">
+      <h1 class="slds-text-heading_large">
+        Criar conta
+      </h1>
+      <lightning-input type="text" label="Nome" value={nome} onchange={botNome}>        
+      </lightning-input>
+
+      <lightning-input type="text" label="Email" value={email} onchange={botEmail}>       
+      </lightning-input>
+
+      <lightning-combobox label="Classificação" options={listClass} value={classificacao} placeholder=" " onchange={botClass}>
+    </lightning-combobox>
+
+  <lightning-combobox label="Tipo" options={listTipo} value={tipo} placeholder=" " onchange={botTipo}>
+   </lightning-combobox>
+  
+   <lightning-button variant="brand" label="Criar" onclick={criarConta}></lightning-button>
+
+</div>
+
+</lightning-card>
+  
+</template>

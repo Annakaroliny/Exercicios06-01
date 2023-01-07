@@ -1,0 +1,28 @@
+<template>
+  <lightning-card title="Calculadora Imc">
+    <div class="slds-m-arround_medium">
+      <lightning-input type="text" label="Nome" value={nome} onchange={botNome}>        
+      </lightning-input>
+
+      <lightning-input type="text" label="Peso" value={peso} onchange={botPeso}>        
+      </lightning-input>
+
+      <lightning-input type="text" label="Altura" value={altura} onchange={botAltura}>       
+      </lightning-input>
+
+      <lightning-button variant="brand" label="Calcula" onclick={calcula}>  
+      </lightning-button>
+
+
+      <lightning-input type="text" label= {textNome} value={imc}> 
+      
+      </lightning-input>
+
+    </div>
+    </lightning-card>
+</template>
+
+
+
+
+
